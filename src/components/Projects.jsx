@@ -24,29 +24,9 @@ const Projects = () => {
   const [expandedProjectId, setExpandedProjectId] = useState(null);
 
   const WebProjects = [
+    
     {
       id: 1,
-      src: ERPWebApplication,
-      title: "ERP Web Application – Hightechx",
-      description:
-        "Contributed to a production-grade full-stack ERP web application at HighTechX Software Solutions, delivering core business modules using React (TypeScript), Spring Boot, and MySQL. Implemented REST APIs, reusable UI components, and database workflows, integrated JasperReports with dynamic React-based parameter screens, and migrated legacy Crystal Reports and SQL Server stored procedures to MySQL within an Agile, Jira-driven development environment.",
-      tech: [
-        "Spring Boot",
-        "React.js",
-        "TypeScript",
-        "MySQL",
-        "JasperReports",
-        "MS SQL Server",
-        "Crystal Reports",
-        "Agile",
-        "Jira"
-      ],
-      code: "",
-      demo: "",
-      category: "Enterprise"
-    },
-    {
-      id: 2,
       src: MotorbikeReservation,
       title: "Motorbike Service and Reservation System",
       description:
@@ -57,7 +37,7 @@ const Projects = () => {
       category: "Full Stack"
     },
     {
-      id: 3,
+      id: 2,
       src: TeaProduct,
       title: "Tea Product Management System",
       description:
@@ -68,7 +48,7 @@ const Projects = () => {
       category: "MERN Stack"
     },
     {
-      id: 4,
+      id: 3,
       src: SecureChatApplication,
       title: "Secure Chat Application",
       description:
