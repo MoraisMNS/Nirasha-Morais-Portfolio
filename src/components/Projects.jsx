@@ -181,17 +181,6 @@ const Projects = () => {
       demo: null,
       category: "Desktop"
     },
-    {
-      id: 2,
-      src: GUIindividual,
-      title: "School Management System",
-      description:
-        "Student registration and management system for educational institutions. Enables enrollment management, grading, and secure storage of student information.",
-      tech: ["C#", "XAML", "WPF", "MVVM"],
-      code: "https://github.com/AhamedMinhaj456/Individual-project.git",
-      demo: null,
-      category: "Desktop"
-    }
   ];
 
   const CloudProjects = [
